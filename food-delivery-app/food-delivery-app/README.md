@@ -18,6 +18,22 @@ This project is a food delivery application built using the MERN stack (MongoDB,
 ## Project Structure
 ```
 food-delivery-app
+├── admin
+│   ├── public
+│   │   └── index.html
+│   ├── src
+│   │   ├── components
+│   │   │   ├── Navbar.js
+│   │   │   
+│   │   │   
+│   │   │   
+│   │   ├── pages
+│   │   │   ├── HomePage.js
+│   │   │   ├── LoginPage.js
+│   │   │   └── SignupPage.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── package.json
 ├── backend
 │   ├── controllers
 │   │   └── userController.js
@@ -63,7 +79,7 @@ food-delivery-app
 3. Set up your MongoDB connection in `config/db.js`.
 4. Start the server:
    ```
-   node server.js
+   npm run dev
    ```
 
 ### Frontend
@@ -77,9 +93,21 @@ food-delivery-app
    ```
 3. Start the React application:
    ```
-   npm start
+   npm run dev 
    ```
-
+### abmin
+1. Navigate to the `abmin` directory:
+   ```
+   cd abmin
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the server:
+   ```
+   npm run dev
+   ```
 ## Contributing
 Feel free to fork the repository and submit pull requests for any improvements or features you would like to add.
 
