@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+    background-color: #f8f9fa; /* optional light background */
+}
+
+.navbar .logo {
+    width: 50px;         /* fixed size */
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.navbar .profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar-title {
+    font-size: 20px;
+    font-weight: 600;
+    color:orange;
+    font-family: 'Segoe UI', sans-serif;
+}
+.navbar-title:hover {
+    color: #fff;
+    background-color: #ff6600;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-shadow: none;
+}
+
